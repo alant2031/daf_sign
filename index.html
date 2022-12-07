@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loading.css">
+    <script src="script.js"></script>
+</head>
+<body title="Aperte ENTER para gerar o QR Code">
+    <div id="sep"></div>
+    <div class="fields">
+        <div contenteditable id="name">Nome Sobrenome</div>
+        <div contenteditable id="role">Descrição do cargo</div>
+        <div id="email">
+            <span contenteditable>usuario@email.com</span>
+        </div>
+        <div class="flex-fields">
+            <div contenteditable id="phone">+5585 999999999</div>
+            <div class="transform" style="display: none;">
+                <div class="lds-grid" >
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <img id="qrcode" src="" alt="" style="display: none;">
+        </div>
+        <div contenteditable id="address">Rua ABC Nº 123, Centro, 60055123, Fortaleza - CE</div>
+    </div>
+    
+
+</body>
+</html>
